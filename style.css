@@ -1,0 +1,80 @@
+@import url("https://www.nerdfonts.com/assets/css/webfont.css");
+
+* {
+  font-family: Poppins;
+}
+
+body {
+  background-color: #333;
+  content-align: center;
+}
+
+a:link {
+  color: gray;
+  text-decoration: none;
+  transtion: 0.15s;
+}
+
+a:link:hover {
+  color: #888;
+}
+
+a:visited {
+  color: #999;
+  transtion: 0.15s;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 16px;'
+  color: white;
+}
+
+li {
+  color: white;
+}
+
+.name {
+  color: #04AA6D;
+  align-items: left;
+  margin-bottom: 0;
+}
+
+.main {
+  box-shadow: -8px 7px 152px -32px rgba(0,0,0,0.75);
+  border: 2px solid #6b6b6b;
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.dash {
+  color: #04AA6D;
+}
+
+.underbar {
+  color: white;
+}
+
+.skills {
+  color: #E0A7B4; 
+}
+
+.nf-custom-cpp,
+.nf-fa-laptop,
+.nf-md-floppy,
+.nf-dev-linux,
+.nf-dev-vim {
+  margin-right: 8px;
+  color: none;
+}
+
+.catbox {
+  color: white;
+  margin: 0;
+  padding-bottom: 16px;
+}
